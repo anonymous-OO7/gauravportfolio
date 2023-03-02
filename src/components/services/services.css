@@ -1,0 +1,126 @@
+.headingCtn {
+
+    background-color: transparent;
+    width: 100%;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.getText {
+    font-size: 13px;
+    color: white;
+    font-weight: 400;
+}
+
+#aboutme {
+
+    font-size: 20px;
+    color:aqua;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.services_container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 0.5rem;
+    border-width: 10px;
+    border-color: darkgreen;
+}
+.service {
+    background: transparent;
+    border-radius: 0 0 2rem 2rem;
+    height: fit-content;
+    border-color: 1px solid green;
+    transition: ease-in-out 400ms;
+
+
+}
+
+.service:hover{
+    background:steelblue;
+    border-radius: 0 0 2rem 2rem;
+
+}
+
+.service_head {
+    padding: 2rem;
+    border-radius:  0 0 2rem 2rem;
+    box-shadow: 0 2rem 0 rgba(0, 0, 0, 0.1);
+
+}
+
+
+.service_head  h3{
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.service_list {
+
+    padding: 2rem;
+
+}
+
+.service_list li {
+    display: flex;
+    margin-bottom: 0.8rem;
+    gap: 1rem;
+}
+
+.service_list-icon {
+    color: darkgrey;
+    margin-top: 2px;
+}
+
+.service_list p{
+    font-size: 0.9rem;
+}
+
+
+
+/* MEDIA QUERIESS */
+
+@media screen  and (max-width : 1024px){
+    
+    .services_container{
+    
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+
+    }
+}
+
+/* MEDIA QUERIES FOR SMALLER DEVOCES */
+@media screen  and ( max-width : 600px){
+
+    .services_container{
+    
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .service {
+        height: auto;
+        
+    }
+
+
+}
+
+.work-text{
+
+    color: white;
+    font-family: 'Poppins';
+
+}

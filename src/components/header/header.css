@@ -1,0 +1,74 @@
+.mainCtn{
+    display: flex;
+    background-color:transparent;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.subCtn {
+    background-color:transparent;
+    text-align: center;   
+    width: 80%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+
+   
+}
+
+.nameCtn {
+
+    margin-top: 20%;
+}
+
+
+#helloTag {
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight:300;
+    color: white;}
+
+#name {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight:500;
+
+}
+
+#profession {
+
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight:500;
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+
+#header-socials {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 40%;
+    left: 6rem;
+    
+
+}
+
+
+.me {
+
+    background-color: transparent;
+    width: 22rem;
+    height: 30rem;
+    /* position: absolute; */
+    left:calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0 ;
+    margin-left: 35%;
+
+
+}
