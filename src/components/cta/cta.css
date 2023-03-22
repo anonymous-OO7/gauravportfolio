@@ -1,0 +1,27 @@
+.buttonCtn {
+
+    border-radius: 5px;
+    border-width: 20px;
+    background-color:transparent;
+    border: 1.5px solid #00bfff;
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonCtn:hover {
+
+
+    border-radius: 5px;
+    border-width: 20px;
+    background-color:  #00bfff;
+    border: 0px solid  aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 200ms;
+
+}
+

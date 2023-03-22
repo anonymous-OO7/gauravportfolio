@@ -1,0 +1,80 @@
+
+.headingCtn {
+
+    background-color: transparent;
+    width: 100%;
+    border-width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.getText {
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+#aboutme {
+
+    font-size: 22px;
+    color:aqua;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+.experience_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0rem;
+    place-items: center;
+
+}
+
+
+.experience_container > div {
+
+    background-color: transparent;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid grey;
+    transition: ease-in-out 300ms;
+    width: 80%;
+}
+
+.experience_container > div:hover{
+
+    background-color:lightslategray;
+    border-color:blueviolet;
+    cursor: default;
+
+}
+
+.experience_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.experience_content {
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+
+}
+
+.experience_details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience_details-icon {
+
+    margin-top: 6px;
+    color: dodgerblue;
+    
+}
