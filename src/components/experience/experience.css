@@ -1,9 +1,11 @@
+#experience{
 
-.headingCtn {
+    margin-left: 0rem;
+}
+.heading-ctn {
 
     background-color: transparent;
     width: 100%;
-    border-width: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +50,7 @@
 
 .experience_container > div:hover{
 
-    background-color:lightslategray;
+    background-color: rgba(100, 100, 100, 0.5);;
     border-color:blueviolet;
     cursor: default;
 
@@ -77,4 +79,24 @@
     margin-top: 6px;
     color: dodgerblue;
     
+}
+
+
+.title-ctn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-subctn{
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border: 0.1rem solid  #228b22 ;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
 }

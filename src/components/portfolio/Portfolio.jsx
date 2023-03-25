@@ -19,9 +19,20 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <div className="headingCtn">
-        <text className="getText">My Work</text>
+
+      <div className="headingctn">
+
+
+      <div className='title-ctn' >
+
+      <div className='title-subctn'>
+
+      <text className="getText">My Work</text>
         <text id="aboutme">Portfolio</text>
+
+      </div>
+
+      </div>
       </div>
 
       <div className="container portfolio_container">

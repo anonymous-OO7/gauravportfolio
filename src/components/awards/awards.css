@@ -1,9 +1,8 @@
 
-.headingCtn {
+.awardsheadingCtn {
 
     background-color: transparent;
     width: 100%;
-    border-width: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +46,7 @@
 .portfolio_item:hover{
 
     border-color: darkgreen;
-    background:powderblue;
+    /* background:powderblue; */
 }
 
 .portfolio_item-image {

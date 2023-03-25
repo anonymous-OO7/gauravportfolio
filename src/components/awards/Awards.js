@@ -17,9 +17,15 @@ const Awards = () => {
 
   return (
     <section id="awards">
-      <div className="headingCtn">
-        <text className="getText">Proven  to be excellent</text>
+      <div className="awardsheadingCtn">
+
+      <div className='title-ctn' >
+      <div className='title-subctn'>
+
+      <text className="getText">Proven  to be excellent</text>
         <text id="aboutme">Awards</text>
+      </div>
+      </div>
       </div>
 
       <div>

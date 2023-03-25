@@ -12,12 +12,48 @@ const About = () => {
 
     <section id='about'>
 
-        <div className='headingCtn'>
-          <text className='getText'>Get to know</text>
-          <text id='aboutme'>About me</text>
+        <div className='heading-ctn'>
+
+          <div className='title-ctn' >
+
+            <div className='title-subctn'>
+
+                <text className='getText'>Get to know</text>
+                <text id='aboutme'>About me</text>
+
+            </div>
+       
+
+          </div>
+
+      
+
+          <div className='about_cards'>
+
+            <article className='about_card'>
+              <BsAward className='about_icon'/>
+              <h5 className='topic-name'>Experience</h5>
+              <small>2+ Years working</small>
+            </article>
+
+            <article className='about_card'>
+              <FaUsers className='about_icon'/>
+              <h5 className='topic-name'> 10 + Technologies</h5>
+              {/* <small style={{ textAlign:"left" }}>10+</small> */}
+            </article>
+
+            <article className='about_card'>
+              <BsFillFolderFill className='about_icon'/>
+              <h5 className='topic-name'>Projects</h5>
+              <small className='topic-name'>5+ completed</small>
+            </article>
+
+            </div>
         </div>
 
         <div className='container'>
+
+          
 
           <div className='about_container'>
 
@@ -26,17 +62,11 @@ const About = () => {
                    <div className='about__me-image'>
                     <img src={ME} alt="anbout image"></img>
                   </div>
-
-                  <div style={{ width:"50%" ,height:"100px", backgroundColor:"wheat" }}> 
-
-                  </div>
-
+                <p className='aboutText'>
+                 My name is Gaurav and I love creating things which live on Internet. My interest in Web development started in 2021,
+                  when I created website using HTML , CSS and Javascript. I'm passionate about cutting-edge , pixel-perfect, beautiful interfaces and intutively implemented UX. Experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.
+                </p>
               </div>
-
-
-             
-
-
 
                 {/* <div className='about_content'> */}
 
@@ -64,16 +94,17 @@ const About = () => {
 
                       </div> */}
 
-                      {/* <div >
-                        <p className='aboutText'></p>
-                      </div> */}
-
-
                       {/* <a href='#contact' className='btn btn-primary talkbtn'>Lets Talk</a> */}
 
                 {/* </div> */}
             </div>
+
+
+            
         </div>
+
+
+          
 
      
 

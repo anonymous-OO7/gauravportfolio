@@ -1,11 +1,12 @@
 import React from 'react'
 import '../header/header.css';
 import CTA from '../cta/CTA';
-import ME from '../../assets/me.png';
+import ME from '../../assets/codingguy.png';
 import HeaderSocials from './HeaderSocials';
 import CV from '../../assets/GauravResume.pdf';
 import Typewriter from 'typewriter-effect';
-
+import Lottie from 'react-lottie';
+import  Frontend from '../../lotties/frontendanimation.json';
 
 
 const Header = () => {
@@ -46,6 +47,20 @@ const Header = () => {
                 </div>
              
                 <CTA/>
+
+                <div style={{ marginTop:"2rem" }}>
+                <Lottie options={{
+                loop: true,
+                autoplay: true, 
+                animationData: Frontend,
+                rendererSettings: {
+                  preserveAspectRatio: 'xMidYMid slice'
+                }
+              }}
+                        height={250}
+                        width={250}
+                        />
+            </div>
             </div>
          
             <div className='me'>
@@ -58,6 +73,9 @@ const Header = () => {
             <HeaderSocials/>
             </div>
       </div>
+
+
+  
     </div>
 
 

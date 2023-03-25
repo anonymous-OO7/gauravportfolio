@@ -1,13 +1,23 @@
 import React from "react";
 import "../experience/experience.css";
-import { BsFillPatchCheckFill } from "react-icons/bs";
-
+import { BsFillPatchCheckFill,BsAndroid2,BsApple ,} from "react-icons/bs";
+import {FaReact,FaNodeJs,FaGooglePlay ,FaGithub} from "react-icons/fa";
+import {SiHtml5,SiCss3,SiJavascript, SiWebflow, SiMysql ,SiTypescript} from "react-icons/si";
+import {DiNodejs} from "react-icons/di"
+import {ImAndroid} from "react-icons/im"
+import {TbBrandNextjs} from 'react-icons/tb';
 const Experience = () => {
   return (
     <section id="experience">
-      <div className="headingCtn">
-        <text className="getText">What skills I have</text>
+      <div className="heading-ctn">
+
+      <div className='title-ctn' >
+        <div className='title-subctn'>
+        {/* <text className="getText">What skills I have</text> */}
         <text id="aboutme">My Skills</text>
+        </div>
+        </div>
+
       </div>
 
       <div className="experience_container">
@@ -16,56 +26,90 @@ const Experience = () => {
 
           <div className="experience_content">
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <FaReact className="experience_details-icon" />
               <div>
                 <h4>React Js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <SiHtml5 className="experience_details-icon" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <SiCss3 className="experience_details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>{" "}
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <SiJavascript className="experience_details-icon" />
               <div>
                 <h4>Javascript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>{" "}
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <FaReact className="experience_details-icon" />
               <div>
                 <h4>React Native</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <SiWebflow className="experience_details-icon" />
               <div>
                 <h4>Web Development</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+
+            <article className="experience_details">
+              <FaGithub className="experience_details-icon" />
+              <div>
+                <h4>Github</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <SiTypescript className="experience_details-icon" />
+              <div>
+                <h4>Typescript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <TbBrandNextjs className="experience_details-icon" />
+              <div>
+                <h4>NextJs</h4>
+                <small className="text-light">basic</small>
+              </div>
+            </article>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
 
         <div className="experience_backend">
           <h3>Backend Development</h3>
 
           <div className="experience_content">
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <FaNodeJs className="experience_details-icon" />
 
               <div>
                 <h4>Node</h4>
@@ -73,35 +117,35 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <FaNodeJs className="experience_details-icon" />
               <div>
                 <h4>Express</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <SiMysql className="experience_details-icon" />
               <div>
                 <h4>My Sql</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>{" "}
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <ImAndroid className="experience_details-icon" />
               <div>
                 <h4>Android</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>{" "}
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <BsApple className="experience_details-icon" />
               <div>
                 <h4>ios</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
+              <FaGooglePlay className="experience_details-icon" />
               <div>
                 <h4>Google Play</h4>
                 <small className="text-light">Experienced</small>

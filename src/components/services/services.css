@@ -1,8 +1,7 @@
-.headingCtn {
+.headingmainctn {
 
     background-color: transparent;
     width: 100%;
-    border-width: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +28,6 @@
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: 0.5rem;
-    border-width: 10px;
     border-color: darkgreen;
 }
 .service {
@@ -43,7 +41,7 @@
 }
 
 .service:hover{
-    background:steelblue;
+    background: rgba(100, 100, 100, 0.5);;
     border-radius: 0 0 2rem 2rem;
 
 }

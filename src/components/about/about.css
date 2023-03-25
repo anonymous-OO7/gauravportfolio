@@ -1,20 +1,19 @@
-.headingCtn {
+.heading-ctn {
 
     background-color: transparent;
     width: 100%;
-    border-width: 10px;
+    /* border-width: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .getText {
     font-size: 15px;
     color: white;
     font-weight: 400;
-    margin-top: 5rem;
     
 
 }
@@ -25,7 +24,6 @@
     color:aqua;
     font-weight: 600;
     font-family: 'Poppins';
-    margin-bottom: 8rem;
 }
 
 .about-container {
@@ -56,6 +54,7 @@
     transition: ease-in-out 200ms;
     width: 20rem;
     height: 20rem;
+    margin-left: 7%;
 
 }
 
@@ -77,7 +76,6 @@
 
 .about_content {
 
-    background-color:coral;
     width: 50%;
     
 }
@@ -86,6 +84,8 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap : 1.5rem;
+    width: 40%;
+    margin-left: 34%;
 }
 
 .about_card {
@@ -110,10 +110,8 @@
 
     display: flex;
     flex-direction: row;
-    background-color: aqua;
     width:100%;
-    height: 5rem;
-
+    
 }
 
 .about-text {
@@ -125,11 +123,13 @@
 
 .aboutText{
 
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'Poppins';
     text-align: center;
-    height: 200px;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 4rem;
 
 }
 
@@ -154,4 +154,30 @@
 
     background-color:dimgray;
     width: 20%;
+}
+
+.title-ctn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+
+.title-subctn{
+
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border: 0.1rem solid  #228b22 ;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+
+
+
+.topic-name{
+    text-align: left;
 }
