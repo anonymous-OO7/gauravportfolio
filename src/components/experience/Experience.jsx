@@ -119,7 +119,7 @@ const Experience = () => {
             <article className="experience_details">
               <FaNodeJs className="experience_details-icon" />
               <div>
-                <h4>Express</h4>
+                <h4>Express Js</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
