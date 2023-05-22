@@ -93,3 +93,41 @@
     text-align: left;
     margin-left: 8rem;
 }
+
+
+
+
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+
+
+
+
+
+}
+ 
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+    .subCtn {
+        background-color:blue;
+        text-align: center;   
+        width: 80%; 
+   
+    
+       
+    }
+
+
+
+
+}
