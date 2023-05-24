@@ -119,14 +119,26 @@ and (orientation: portrait) {
 
 
     .subCtn {
-        background-color:blue;
-        text-align: center;   
-        width: 80%; 
+        background-color:transparent;
+        width: 90%; 
    
-    
-       
     }
 
+    #name {
+        color: white;
+        font-family: 'Poppins';
+        font-size: 26px;
+        font-weight:500;
+        text-align: left;
+    
+    }
+
+
+    .headingCtn{
+
+        text-align: left;
+        margin-left: 4vh;
+    }
 
 
 

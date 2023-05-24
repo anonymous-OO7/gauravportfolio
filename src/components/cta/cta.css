@@ -1,4 +1,4 @@
-.buttonCtn {
+.buttonCtnHeader {
 
     border-radius: 5px;
     border-width: 20px;
@@ -11,7 +11,7 @@
     align-items: center;
 
 }
-.buttonCtn:hover {
+.buttonCtnHeader:hover {
 
 
     border-radius: 5px;
@@ -25,3 +25,39 @@
 
 }
 
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+    .buttonCtnHeader {
+
+        border-radius: 1vh;
+        border-width: 20px;
+        background-color:transparent;
+        border: 1.5px solid #00bfff;
+        height: 6vh;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .buttonCtnHeader:hover {
+    
+    
+        border-radius: 1vh;
+        border-width: 20px;
+        background-color:  #00bfff;
+        border: 0px solid  aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: ease-in-out 200ms;
+    
+    }
+
+
+
+}

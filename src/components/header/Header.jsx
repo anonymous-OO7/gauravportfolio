@@ -9,6 +9,10 @@ import Lottie from "react-lottie";
 import Frontend from "../../lotties/frontendanimation.json";
 import { useState, useEffect } from "react";
 
+const isMobile = window.screen.width < 600
+
+
+
 const Header = () => {
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
@@ -31,19 +35,19 @@ const Header = () => {
         <div className="nameCtn">
           <div className="headingCtn">
             <h5 id="helloTag">Hi, my name is </h5>
-            <text id="name">Gaurav Kumar Yadav</text>
+            <h1 id="name">Gaurav Kumar Yadav</h1>
             <h5 id="profession">
               I'm software engineer specializing in building(and occasionally
               designing) exceptional digital experiences. Currently I'm focussed
               on building accessble human-centered products at Kuants Finance
               Private Limited.
             </h5>
-            <h3 style={{ color: "blue" }}>
+            {/* <h3 style={{ color: "blue" }}>
               Window Width: {windowSize.width}px
             </h3>
             <h3 style={{ color: "red" }}>
               Window Height: {windowSize.height}px
-            </h3>
+            </h3> */}
           </div>
 
           <div className="typewriterCtn">
@@ -60,11 +64,12 @@ const Header = () => {
             />
           </div>
 
-          {windowSize.width < 480 ? (
+          {/* {windowSize.width < 480 ? (
             <div className="me">
               <img alt="HAHHA" src={ME}></img>
             </div>
-          ) : null}
+          ) : null} */}
+          
 
           <CTA />
 
@@ -88,15 +93,15 @@ const Header = () => {
               <img  alt='HAHHA' src ={ME}></img>
             </div> */}
 
-        {windowSize.width > 480 ? (
+        {/* {windowSize.width > 480 ? (
           <div className="me">
             <img alt="HAHHA" src={ME}></img>
           </div>
-        ) : null}
+        ) : null} */}
 
-        <div id="header-socials">
+        {/* <div id="header-socials">
           <HeaderSocials />
-        </div>
+        </div> */}
       </div>
     </div>
   );

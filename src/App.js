@@ -44,15 +44,15 @@ function App() {
 
       
       <Header/>
-      <About/>
-      <Navbar/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
+      {/* <About/> */}
+      {/* <Navbar/> */}
+      {/* <Experience/> */}
+      {/* <Services/> */}
+      {/* <Portfolio/> */}
       {/* <Contact/> */}
 
-      <Awards/>
-      <Footer/>
+      {/* <Awards/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
