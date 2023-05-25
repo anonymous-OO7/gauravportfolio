@@ -51,11 +51,11 @@ const Awards = () => {
           {/* <div className='portfolio_item-image'></div> */}
           <h3>Certificate of appreciation </h3>
 
-          <div style={ { display:"flex" , alignItems:'center' } }>
+          {/* <div style={ { display:"flex" , alignItems:'center' } }>
             <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
-          </div>
+          </div> */}
 
 
         </article>
@@ -65,12 +65,12 @@ const Awards = () => {
           </div>
 
           <h3>Certificate of achievement</h3>
-          <div style={ { display:"flex" , alignItems:'center' } }>
+          {/* <div style={ { display:"flex" , alignItems:'center' } }>
             <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
 
-          </div>
+          </div> */}
         </article>
 
 

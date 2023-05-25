@@ -10,7 +10,7 @@
     margin-top: 8rem;
 }
 
-.getText {
+.get-text {
     font-size: 15px;
     color: white;
     font-weight: 400;
@@ -18,7 +18,7 @@
 
 }
 
-#aboutme {
+#about-me {
 
     font-size: 23px;
     color:aqua;
@@ -175,7 +175,7 @@
 }
 
 
-.title-subctn{
+.title-subctnabout{
 
     display: flex;
     flex-direction: column;
@@ -217,13 +217,22 @@ and (orientation: portrait) {
     }
 
     .about_card {
-        border: 1px solid transparent;
+        border: 1px solid white;
         border-radius: 1rem;
         padding: 5px;
-        background-color:transparent;
+        background-color: transparent;
         text-align: center;
         transition: ease-in-out 400ms;
-        opacity: 0.8;
+        opacity: 0.4;
+    }
+
+    .about_card:hover{
+
+        border: 0.1rem solid  #228b22 ;
+        background-color:lightslategray;
+        cursor: default;
+        opacity:0.4;
+    
     }
     
 
@@ -261,5 +270,28 @@ and (orientation: portrait) {
         margin-top: 4rem;
     
     }
+
+
+    .get-text {
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+
+    #about-me {
+
+    font-size: 16px;
+    color:aqua;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.title-subctnabout{
+
+
+
+    margin-bottom: 0rem;
+    padding: 0.5rem;
+}
 
 }
