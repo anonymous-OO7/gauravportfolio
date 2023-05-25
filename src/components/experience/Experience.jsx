@@ -21,6 +21,7 @@ const Experience = () => {
       </div>
 
       <div className="experience_container">
+        
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
 

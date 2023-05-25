@@ -74,7 +74,7 @@ img{
 }
 
 
-.buttonCtn {
+.awardsbutton {
 
     border-radius: 5px;
     border-width: 20px;
@@ -87,7 +87,7 @@ img{
     align-items: center;
 
 }
-.buttonCtn:hover {
+.awardsbutton:hover {
 
 
     border-radius: 5px;
@@ -147,5 +147,53 @@ img{
     
     }
 
+
+}
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+
+.award_container {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap:1rem;
+    width: 80%;
+
+}
+
+
+
+.awardsbutton{
+
+    border-radius: 5px;
+    border-width: 2vw;
+    background-color:transparent;
+    border: 1.5px solid #00bfff;
+    height: 6vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.awardsbutton:hover {
+
+    border-radius: 5px;
+    border-width: 2vw;
+    background-color:  #00bfff;
+    border: 0px solid  aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 200ms;
+
+}
 
 }

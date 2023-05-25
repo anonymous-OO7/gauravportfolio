@@ -42,17 +42,17 @@ function App() {
       ]}
     />
 
-      
+
       <Header/>
-      {/* <About/> */}
+      <About/>
       {/* <Navbar/> */}
-      {/* <Experience/> */}
-      {/* <Services/> */}
-      {/* <Portfolio/> */}
+      <Experience/>
+      <Services/>
+      <Portfolio/>
       {/* <Contact/> */}
 
-      {/* <Awards/> */}
-      {/* <Footer/> */}
+      <Awards/>
+      <Footer/>
     </div>
   );
 }

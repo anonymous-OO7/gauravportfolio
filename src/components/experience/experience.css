@@ -100,3 +100,44 @@
     margin-bottom: 3rem;
     padding: 0.5rem;
 }
+
+
+
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+
+    .experience_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:2vh;
+        /* place-items: center; */
+    
+    }
+
+    .experience_container > div {
+
+        background-color: transparent;
+        padding: 12vw 10vw;
+        border-radius: 2rem;
+        border: 1px solid grey;
+        transition: ease-in-out 300ms;
+        width: 95vw;
+    }
+
+
+    .experience_content {
+
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        /* row-gap: 2rem; */
+        width: 80vw;
+        gap: 8vw;
+    
+    }
+}

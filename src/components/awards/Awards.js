@@ -1,7 +1,7 @@
 import React from "react";
 import '../awards/awards.css';
-import IMG1 from "../../assets/certificate.png";
-import IMG2 from "../../assets/certificate2.png";
+import IMG1 from "../../assets/certificate1.jpeg";
+import IMG2 from "../../assets/certificate2.jpeg";
 import Lottie from 'react-lottie';
 import  AwardAnimation from '../../lotties/trophie.json';
 
@@ -52,7 +52,7 @@ const Awards = () => {
           <h3>Certificate of appreciation </h3>
 
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com" className='buttonCtn'>
+            <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
           </div>
@@ -61,12 +61,12 @@ const Awards = () => {
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={IMG2} alt="p1" />
+            <img src={IMG2} alt="p1"     />
           </div>
 
           <h3>Certificate of achievement</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com" className='buttonCtn'>
+            <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
 

@@ -64,13 +64,6 @@ const Header = () => {
             />
           </div>
 
-          {/* {windowSize.width < 480 ? (
-            <div className="me">
-              <img alt="HAHHA" src={ME}></img>
-            </div>
-          ) : null} */}
-          
-
           <CTA />
 
           <div style={{ marginTop: "2rem" }}>
@@ -89,21 +82,17 @@ const Header = () => {
           </div>
         </div>
 
-        {/* <div className='me'>
+        <div className='me'>
               <img  alt='HAHHA' src ={ME}></img>
-            </div> */}
+            </div> 
 
-        {/* {windowSize.width > 480 ? (
-          <div className="me">
-            <img alt="HAHHA" src={ME}></img>
-          </div>
-        ) : null} */}
-
-        {/* <div id="header-socials">
+        <div id="header-socials">
           <HeaderSocials />
-        </div> */}
+        </div>
       </div>
+    
     </div>
+
   );
 };
 

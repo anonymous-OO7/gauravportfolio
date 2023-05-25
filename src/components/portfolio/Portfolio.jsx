@@ -45,10 +45,10 @@ const Portfolio = () => {
           <h3>Tic Tac Toe game</h3>
 
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com/anonymous-OO7/tictactoe.github.io" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/tictactoe.github.io" className='button-ctn'>
               Github
             </a>
-            <a href="https://anonymous-oo7.github.io/tictactoe.github.io/" className='buttonCtn'>
+            <a href="https://anonymous-oo7.github.io/tictactoe.github.io/" className='button-ctn'>
               Live demo
             </a>
           </div>
@@ -62,10 +62,10 @@ const Portfolio = () => {
 
           <h3>Kuants Android and ios application</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com" className='buttonCtn'>
+            <a href="https://github.com" className='button-ctn'>
               Github
             </a>
-            <a href="https://github.com" className='buttonCtn'>
+            <a href="https://github.com" className='button-ctn'>
               Live demo
             </a>
           </div>
@@ -78,10 +78,10 @@ const Portfolio = () => {
 
           <h3>To Do list Planner</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com/anonymous-OO7/toDoList.github.io" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/toDoList.github.io" className='button-ctn'>
               Github
             </a>
-            <a href="https://anonymous-oo7.github.io/toDoList.github.io/" className='buttonCtn'>
+            <a href="https://anonymous-oo7.github.io/toDoList.github.io/" className='button-ctn'>
               Live demo
             </a>
           </div>
@@ -93,10 +93,10 @@ const Portfolio = () => {
 
           <h3>BMI React App</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com/anonymous-OO7/pokemon" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/pokemon" className='button-ctn'>
               Github
             </a>
-            <a href="https://anonymous-oo7.github.io/pokemon/" className='buttonCtn'>
+            <a href="https://anonymous-oo7.github.io/pokemon/" className='button-ctn'>
               Live demo
             </a>
           </div>
@@ -109,10 +109,10 @@ const Portfolio = () => {
 
           <h3>Liver Disease Prediction Machine Learning</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com/anonymous-OO7/Liver-Disease-Prediction-system" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/Liver-Disease-Prediction-system" className='button-ctn'>
               Github
             </a>
-            <a href="https://github.com/anonymous-OO7/Liver-Disease-Prediction-system" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/Liver-Disease-Prediction-system" className='button-ctn'>
               Live demo
             </a>
           </div>
@@ -124,10 +124,10 @@ const Portfolio = () => {
 
           <h3>Aspect Based Sentiment Analysis</h3>
           <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com/anonymous-OO7/Sentiment-Analysis" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/Sentiment-Analysis" className='button-ctn'>
               Github
             </a>
-            <a href="https://github.com/anonymous-OO7/Sentiment-Analysis" className='buttonCtn'>
+            <a href="https://github.com/anonymous-OO7/Sentiment-Analysis" className='button-ctn'>
               Live demo
             </a>
           </div>

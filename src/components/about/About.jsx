@@ -51,13 +51,13 @@ const About = () => {
             </div>
         </div>
 
+
+
+
+
         <div className='container'>
-
-          
-
           <div className='about_container'>
-
-              <div style={{ display:"flex", flexDirection:"row"}}> 
+              <div className='about-subctn' style={{}}> 
 
                    <div className='about__me-image'>
                     <img src={ME} alt="anbout image"></img>
@@ -98,15 +98,9 @@ const About = () => {
 
                 {/* </div> */}
             </div>
-
-
-            
         </div>
 
 
-          
-
-     
 
     </section>
   )

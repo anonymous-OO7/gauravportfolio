@@ -111,8 +111,18 @@
     display: flex;
     flex-direction: row;
     width:100%;
+
     
 }
+
+
+.about-subctn{
+
+    display:flex;
+    flex-direction:row;
+
+}
+
 
 .about-text {
     text-align: center;
@@ -180,4 +190,76 @@
 
 .topic-name{
     text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+
+    .about_cards {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap : 1.5rem;
+        width: 98%;
+        margin-left: 1vw;
+    }
+
+    .about_card {
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 5px;
+        background-color:transparent;
+        text-align: center;
+        transition: ease-in-out 400ms;
+        opacity: 0.8;
+    }
+    
+
+    .about-subctn{
+
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+
+    .about__me-image {
+
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(0deg);
+        transition: ease-in-out 200ms;
+        width: 10rem;
+        height: 10rem;
+        margin-left: 7%;
+        margin-top: 2vh;
+    
+    }
+
+
+    .aboutText{
+
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Poppins';
+        text-align: center;
+        width: 90%;
+        margin-top: 4rem;
+    
+    }
+
 }
