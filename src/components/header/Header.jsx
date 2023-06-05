@@ -8,6 +8,7 @@ import Typewriter from "typewriter-effect";
 import Lottie from "react-lottie";
 import Frontend from "../../lotties/frontendanimation.json";
 import { useState, useEffect } from "react";
+import { Parallax ,ParallaxLayer} from '@react-spring/parallax';
 
 const isMobile = window.screen.width < 600
 
@@ -31,8 +32,59 @@ const Header = () => {
 
   return (
     <div className="mainCtn">
+
+
       <div className="subCtn">
-        <div className="nameCtn">
+
+
+
+<Parallax pages={1.5} style={{ top: '0', left: '0' }} class="animation">
+
+
+<ParallaxLayer offset={0} speed={0.25}>
+  <div class="animation_layer parallax" id="artback">
+    
+    
+  </div>
+</ParallaxLayer>
+
+
+<ParallaxLayer offset={0} speed={0.3}>
+  <div class="animation_layer parallax" id="mountain"></div>
+</ParallaxLayer>
+
+
+<ParallaxLayer offset={0} speed={-0.1}>
+  <div class="animation_layer parallax" id="logoland"></div>
+</ParallaxLayer>
+
+
+<ParallaxLayer offset={0} speed={0.3}>
+  <div class="animation_layer parallax" id="jungle1"></div>
+</ParallaxLayer>
+
+
+<ParallaxLayer offset={0} speed={0.35}>
+  <div class="animation_layer parallax" id="jungle2"></div>
+</ParallaxLayer>
+
+<ParallaxLayer offset={0} speed={0.5}>
+  <div class="animation_layer parallax" id="jungle3">
+    
+  </div>
+</ParallaxLayer>
+
+<ParallaxLayer offset={0} speed={0.45}>
+  <div class="animation_layer parallax" id="jungle4">
+    
+  </div>
+</ParallaxLayer>
+
+<ParallaxLayer offset={0} speed={0.40}>
+
+  <div class="animation_layer parallax" id="manonmountain">
+
+  <div className="nameCtn">
           <div className="headingCtn">
             <h5 id="helloTag">Hi, my name is </h5>
             <h1 id="name">Gaurav Kumar Yadav</h1>
@@ -80,11 +132,33 @@ const Header = () => {
               width={250}
             />
           </div>
-        </div>
+    </div>
+
+
+  </div>
+
+  
+</ParallaxLayer>
+
+<ParallaxLayer offset={0} speed={0.35}>
+  <div class="animation_layer parallax" id="jungle5">
+    
+  </div>
+</ParallaxLayer>
+
+
+<ParallaxLayer offset={1} speed={0.25}>
+  {/* <Header/> */}
+
+  
+
+</ParallaxLayer>
+</Parallax>
+        
 
         <div className='me'>
               <img  alt='HAHHA' src ={ME}></img>
-            </div> 
+        </div> 
 
         <div id="header-socials">
           <HeaderSocials />

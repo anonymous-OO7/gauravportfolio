@@ -1,8 +1,9 @@
 .mainCtn{
     display: flex;
-    background-color:transparent;
+    background-color:cadetblue;
     justify-content: center;
     margin-top: 0rem;
+    height: 100vh;
 }
 
 .subCtn {
@@ -108,6 +109,67 @@ and (max-device-width: 1024px) {
 
 
 
+}
+
+
+
+
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(../../assets/images/background.png);
+}
+
+#mountain {
+  background-image: url(../../assets/images/mountains.png);
+}
+
+#logoland {
+  background-image: url(../../assets/images/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(../../assets/images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(../../assets/images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(../../assets/images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(../../assets/images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(../../assets/images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(../../assets/images/man_on_mountain.png);
 }
  
 

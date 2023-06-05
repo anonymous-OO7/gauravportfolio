@@ -9,7 +9,7 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Footer from './components/footer/Footer';
 import Awards from './components/awards/Awards';
-
+import { Parallax ,ParallaxLayer} from '@react-spring/parallax';
 import AnimatedCursor from "react-animated-cursor"
 
 
@@ -43,16 +43,24 @@ function App() {
     />
 
 
+
+
+
       <Header/>
-      <About/>
+
+
+
+
+
+      {/* <About/> */}
       {/* <Navbar/> */}
-      <Experience/>
-      <Services/>
-      <Portfolio/>
+      {/* <Experience/> */}
+      {/* <Services/> */}
+      {/* <Portfolio/> */}
       {/* <Contact/> */}
 
-      <Awards/>
-      <Footer/>
+      {/* <Awards/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
