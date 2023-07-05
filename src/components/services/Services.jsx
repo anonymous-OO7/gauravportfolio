@@ -65,6 +65,19 @@ const Services = () => {
                   Built a responsive portfolio using React JS and made it live.
                 </p>
               </li>
+
+              <li>
+                <BsCheckAll />
+                <p className="work-text" >
+                  Built a responsive Kotlin android application.
+                </p>
+              </li>
+              <li>
+                <BsCheckAll />
+                <p className="work-text" >
+                  Built a responsive Kotlin android SDK with integration in parent app.
+                </p>
+              </li>
             </ul>
           </div>
         </article>

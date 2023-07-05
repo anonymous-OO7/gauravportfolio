@@ -1,8 +1,8 @@
 import React from "react";
 import "../experience/experience.css";
 import { BsFillPatchCheckFill,BsAndroid2,BsApple ,} from "react-icons/bs";
-import {FaReact,FaNodeJs,FaGooglePlay ,FaGithub} from "react-icons/fa";
-import {SiHtml5,SiCss3,SiJavascript, SiWebflow, SiMysql ,SiTypescript} from "react-icons/si";
+import {FaReact,FaNodeJs,FaGooglePlay ,FaGithub,FaAws,FaJava} from "react-icons/fa";
+import {SiHtml5,SiCss3,SiJavascript, SiWebflow, SiMysql ,SiTypescript,SiKotlin,SiAndroid,SiPython,SiMongodb} from "react-icons/si";
 import {DiNodejs} from "react-icons/di"
 import {ImAndroid} from "react-icons/im"
 import {TbBrandNextjs} from 'react-icons/tb';
@@ -92,6 +92,21 @@ const Experience = () => {
                 <small className="text-light">basic</small>
               </div>
             </article>
+            <article className="experience_details">
+              <SiKotlin className="experience_details-icon" />
+              <div>
+                <h4>Kotlin</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <SiAndroid className="experience_details-icon" />
+              <div>
+                <h4>Android</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -149,6 +164,35 @@ const Experience = () => {
               <FaGooglePlay className="experience_details-icon" />
               <div>
                 <h4>Google Play</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience_details">
+              <SiPython className="experience_details-icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <SiMongodb className="experience_details-icon" />
+              <div>
+                <h4>Mongo DB</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <FaAws className="experience_details-icon" />
+              <div>
+                <h4>Amazon AWS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <FaJava className="experience_details-icon" />
+              <div>
+                <h4>Java</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

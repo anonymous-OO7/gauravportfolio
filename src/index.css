@@ -15,3 +15,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: rajdhani-bold;
+  src: url(../src/assets/fonts/Rajdhani/Rajdhani-Bold.ttf);
+}
+@font-face {
+  font-family: rajdhani-light;
+  src: url(../src/assets/fonts/Rajdhani/Rajdhani-Light.ttf);
+}
+@font-face {
+  font-family: rajdhani-medium;
+  src: url(../src/assets/fonts/Rajdhani/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+  font-family: rajdhani-regular;
+  src: url(../src/assets/fonts/Rajdhani/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+  font-family: rajdhani-semibold;
+  src: url(../src/assets/fonts/Rajdhani/Rajdhani-SemiBold.ttf);
+}
+
+
+
+@font-face {
+  font-family: lato-black;
+  src: url(../src/assets/fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: lato-regular;
+  src: url(../src/assets/fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato-light;
+  src: url(../src/assets/fonts/Lato/Lato-Light.ttf);
+}

@@ -1,0 +1,56 @@
+
+.framework_button{
+
+    border-radius: 20px;
+    border-width: 2px;
+    background-color:transparent;
+    border: 1.5px solid #008000;
+    height: 4vh;
+    width: 6vw;
+    display: "flex"; 
+    align-items: "center";
+    text-align: center;
+    transition: ease-in-out 200ms;
+}
+
+
+.framework_text{
+
+    font-size: 12px;
+    font-family: rajdhani-regular;
+}
+
+
+
+
+.framework_button:hover {
+
+    background-color:  #00bfff;
+    border: 0px solid  aquamarine;
+    transition: ease-in-out 200ms;
+
+}
+
+
+
+
+
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+    .framework_button{
+
+        border-radius: 20px;
+        border-width: 2px;
+        height: 4vh;
+        width: 20vw;
+       
+    }
+    
+
+}

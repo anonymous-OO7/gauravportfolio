@@ -25,6 +25,17 @@
     font-family: 'Poppins';
 }
 
+
+/* .container-portfolio{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    background-color: #00bfff;
+} */
+
+
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
@@ -34,27 +45,33 @@
 }
 
 
-.portfolio_item {
+.portfolio_item_projects {
+    position: relative;
     background:transparent;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid grey;
+    box-shadow: 0px 0px 0px -15px;
+    animation: ease-in-out;
     transition: ease-in-out 400ms;
 
 }
 
-.portfolio_item:hover{
+.portfolio_item_projects:hover{
 
     border-color: darkgreen;
-    background: rgba(100, 100, 100, 0.5);;
+    transform: scale(1.05);
+    background: rgba(100, 100, 100, 0.5);
 }
 
-.portfolio_item-image {
 
+
+.portfolio_item-image_projects {
 border-radius: 1.5rem;
 overflow: hidden;
-height: 20rem;
+height: 45vh;
 width: auto;
+background-color: #00bfff;
 }
 
 .portfolio_item h3 {
@@ -68,10 +85,26 @@ width: auto;
     margin-bottom: 1.2rem;
 }
 
-img{
+/* img{
     width: 100%;
     object-fit: contain;
+} */
+
+
+
+
+
+
+.mini_description{
+    background-color: transparent;
+    height: 20vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    margin-top: 1vh;
+
 }
+
 
 
 .button-ctn {
@@ -89,7 +122,6 @@ img{
 }
 .button-ctn:hover {
 
-
     border-radius: 5px;
     border-width: 20px;
     background-color:  #00bfff;
@@ -103,7 +135,6 @@ img{
 
 .button {
 
-
     border-radius: 5px;
     border-width: 20px;
     background-color:transparent;
@@ -116,8 +147,6 @@ img{
 }
 
 .button:hover {
-
-
     border-radius: 5px;
     border-width: 20px;
     background-color:  #00bfff;
@@ -125,6 +154,32 @@ img{
     transition: ease-in-out 200ms;
 
 }
+
+
+.project_heading{
+
+    font-size:larger;
+    font-family: Rajdhani-Regular;
+    margin-bottom: 4vh;
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIESS */
@@ -137,6 +192,15 @@ img{
     
     }
 }
+
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES FOR SMALLER DEVOCES */
 @media screen  and ( max-width : 600px){
@@ -154,39 +218,21 @@ img{
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
 
 
 
-.button-ctn {
 
-    border-radius: 5px;
-    border-width: 20vw;
-    background-color: transparent;
-    border: 1.5px solid #00bfff;
-    height: 6vh;
-    width: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 2vw;
-
-}
-
-
-.button-ctn:hover {
-
-
-    border-radius: 5px;
-    border-width: 20vw;
-    background-color:  #00bfff;
-    border: 0px solid  aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: ease-in-out 200ms;
-
-}
 }
