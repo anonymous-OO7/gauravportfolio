@@ -58,3 +58,7 @@ function App() {
 }
 
 export default App;
+
+
+
+// npm install --save gh-pages --legacy-peer-deps
