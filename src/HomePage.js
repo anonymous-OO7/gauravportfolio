@@ -1,4 +1,5 @@
-import './App.css';
+import React from "react";
+
 import NavBar from './components/NavBar';
 import Header from './components/header/Header';
 import Contact from './components/contact/Contact';
@@ -12,25 +13,21 @@ import Awards from './components/awards/Awards';
 
 
 
-
-
-function App() {
+const HomePage = () => {
   return (
     <div>
-    
-      
-      <Header/>
-      <About/>
-      <Navbar/>
-      <Experience/>
-      <Services/>
-      <Portfolio/>
+      <Header />
+      <About />
+      <Navbar />
+      <Experience />
+      <Services />
+      <Portfolio />
       {/* <Contact/> */}
 
-      <Awards/>
-      <Footer/>
+      <Awards />
+      <Footer />
     </div>
   );
-}
+};
 
-export default App;
+export default HomePage;
