@@ -89,7 +89,7 @@
 .about_card {
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     background-color:steelblue;
     text-align: center;
     transition: ease-in-out 400ms;

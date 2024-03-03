@@ -5,7 +5,7 @@ import { BsCheckAll } from "react-icons/bs";
 const Services = () => {
   return (
     <section id="section">
-      <div className="headingCtn">
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">What experience I have</text>
         <text id="aboutme">My Experience</text>
       </div>

@@ -30,11 +30,16 @@
 .experience_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:0rem;
+    gap:1rem;
     place-items: center;
 
 }
 
+@media (max-width: 767px) {
+    .experience_container {
+        grid-template-columns: 1fr;
+    }
+}
 
 .experience_container > div {
 

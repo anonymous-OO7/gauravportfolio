@@ -19,9 +19,10 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <div className="headingCtn">
+
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">My Work</text>
-        <text id="aboutme">Portfolio</text>
+        <text id="aboutme">My Portfolio</text>
       </div>
 
       <div className="container portfolio_container">

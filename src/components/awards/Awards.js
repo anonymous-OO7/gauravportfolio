@@ -17,9 +17,10 @@ const Awards = () => {
 
   return (
     <section id="awards">
-      <div className="headingCtn">
+  
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">Proven  to be excellent</text>
-        <text id="aboutme">Awards</text>
+        <text id="aboutme">My Awards</text>
       </div>
 
       <div>

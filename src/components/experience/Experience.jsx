@@ -5,12 +5,12 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 const Experience = () => {
   return (
     <section id="experience">
-      <div className="headingCtn">
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">What skills I have</text>
         <text id="aboutme">My Skills</text>
       </div>
 
-      <div className="experience_container">
+      <div className="experience_container ">
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
 
