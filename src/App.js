@@ -11,8 +11,11 @@ import Footer from "./components/footer/Footer";
 import Awards from "./components/awards/Awards";
 import Paths from "./router";
 import Homepage from "./pages/homepage/Homepage";
+import AnimatedCursor from "react-animated-cursor"
+
 function App() {
   return (
+    
     // <div>
     //   <Header/>
     //   <About/>
@@ -27,6 +30,27 @@ function App() {
     // </div>
 
     <div>
+      <AnimatedCursor
+      innerSize={8}
+      outerSize={8}
+      color='230, 222, 139'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={5}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />
       <div className="flex flex-col min-h-screen">
           <div className="flex-grow">
             <Paths />

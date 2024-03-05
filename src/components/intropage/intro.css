@@ -25,16 +25,17 @@
     font-size: 20px;
     font-weight:300;
     color: white;
-    text-align: left;
+    text-align: right;
 
 }
 
 #name {
-    color: white;
+    color: rgb(24, 6, 98);
     font-family: 'Poppins';
     font-size: 36px;
     font-weight:500;
-    text-align: left;
+    text-align: right;
+    font-weight:  500;
 
 
 }
@@ -47,8 +48,8 @@
     color: white;
     opacity: 0.7;
     margin-bottom: 2rem;
-    text-align: left;
-    margin-top: 2rem;
+    text-align: right;
+    margin-top: 0rem;
 
 }
 
@@ -177,11 +178,11 @@ and (orientation: portrait) {
     }
 
     #name {
-        color: white;
-        font-family: 'Poppins';
+      color: rgb(24, 6, 98);
+      font-family: 'Poppins';
         font-size: 26px;
         font-weight:500;
-        text-align: left;
+        text-align: right;
     
     }
 
@@ -220,6 +221,8 @@ and (orientation: portrait) {
 
     #profession {
         font-size: 12px;
+        text-align: right;
+
         
     
     }

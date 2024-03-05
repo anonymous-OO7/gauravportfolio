@@ -27,7 +27,7 @@ const Homepage = () => {
         className="w-full bg-no-repeat bg-center bg-cover"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 63%, rgba(0,212,255,1) 100%)",
+            "linear-gradient(90deg, rgba(24,21,71,1) 26%, rgba(2,1,29,1) 56%, rgba(4,36,62,1) 84%)",
         }}
       >
         <IntroPage />
