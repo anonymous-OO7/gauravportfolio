@@ -9,24 +9,7 @@ import Frontend from "../../lotties/frontendanimation.json";
 import { useState, useEffect } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
-const isMobile = window.screen.width < 600;
-
 const IntroPage = () => {
-  const [windowSize, setWindowSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
-
-  // we use the useEffect hook to listen to the window resize event
-  useEffect(() => {
-    window.onresize = () => {
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-  }, []);
-
   return (
     <div className="mainCtn">
       <div className="subCtn">
@@ -63,34 +46,46 @@ const IntroPage = () => {
             <div class="animation_layer parallax" id="manonmountain">
               <div className=" flex justify-center items-center ">
                 <div className=" w-[80%] ">
-                  <div className=" mt-40  lg:mt-[50%] xl:mt-[20%]">
-                    <h5 id="helloTag">Hi, my name is </h5>
+                  <div className="mt-10  lg:mt-[10%] xl:mt-[5%]">
+                    {/* <h5 id="helloTag">Hi, my name is </h5> */}
                     <h1 id="name">Gaurav Kumar Yadav</h1>
-                    <h5 id="profession">
-                      I'm software engineer specializing in building (and
-                      occasionally designing) exceptional digital experiences.
-                      Currently I'm focussed on building accessible
-                      human-centered products at Kuants Finance Private Limited.
-                    </h5>
                   </div>
 
-                  <div className="typewriterCtn">
-                  <Typewriter
-                    options={{
-                      strings: [
-                        "Frontend Developer",
-                        "Backend Developer",
-                        "Fullstack developer",
-                      ],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                </div>
-
+                  <div className="typewriterCtn font-poppins text-xl mt-5 text-indigo-950 flex  justify-end">
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Senior Frontend Developer",
+                          "Backend Developer",
+                          "Fullstack developer",
+                          "Engineering",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
+                  </div>
+                  <div className="flex justify-end">
+                    <h5
+                      id="profession"
+                      className="rounded-lg w-[60%] p-5 bg-red-400 bg-opacity-50 hover:bg-opacity-70 transition duration-300 ease-in-out"
+                    >
+                      I'm a software engineer specializing in building (and
+                      occasionally designing) exceptional digital experiences.
+                      Currently, I'm focused on building accessible
+                      human-centered products at Connect Residuary Private
+                      Limited. I most enjoy building software in the sweet spot
+                      where design and engineering meet — things that look good
+                      but are also built well under the hood.
+                    </h5>
+                  </div>
                   {/* <CTA /> */}
 
-                  <div style={{ marginTop: "2rem" }}>
+                  {/* <div className="me bg-amber-600">
+                    <img alt="HAHHA" src={ME}></img>
+                  </div> */}
+
+                  {/* <div style={{ marginTop: "2rem" }}>
                   <Lottie
                     options={{
                       loop: true,
@@ -103,7 +98,7 @@ const IntroPage = () => {
                     height={250}
                     width={250}
                   />
-                </div>
+                </div> */}
                 </div>
               </div>
             </div>
@@ -118,9 +113,9 @@ const IntroPage = () => {
           </ParallaxLayer>
         </Parallax>
 
-        <div className="me">
+        {/* <div className="me">
           <img alt="HAHHA" src={ME}></img>
-        </div>
+        </div> */}
 
         <div id="header-socials"></div>
       </div>
