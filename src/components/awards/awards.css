@@ -121,6 +121,204 @@ img{
 
     border-radius: 5px;
     border-width: 20px;
+    .awardsheadingCtn {
+    
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    
+    
+    .getText {
+        font-size: 15px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    #aboutme {
+    
+        font-size: 24px;
+        color:aqua;
+        font-weight: 600;
+        font-family: 'Poppins';
+    }
+    
+    .award_container {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap:1rem;
+        width: 80%;
+    
+    }
+    
+    
+    .portfolio_item {
+        background:transparent;
+        padding: 1.3rem;
+        border-radius: 2rem;
+        border: 1px solid grey;
+        transition: ease-in-out 400ms;
+    
+    }
+    
+    .portfolio_item:hover{
+    
+        border-color: darkgreen;
+        /* background:powderblue; */
+    }
+    
+    .portfolio_item-image {
+    
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 20rem;
+    width: auto;
+    }
+    
+    .portfolio_item h3 {
+        margin: 1.2rem 0 2rem;
+    }
+    
+    .portfolio_item-cta{
+    
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    
+    .awardsbutton {
+    
+        border-radius: 5px;
+        border-width: 20px;
+        background-color:transparent;
+        border: 1.5px solid #00bfff;
+        height: 6vh;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .awardsbutton:hover {
+    
+    
+        border-radius: 5px;
+        border-width: 20px;
+        background-color:  #00bfff;
+        border: 0px solid  aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: ease-in-out 200ms;
+    
+    }
+    
+    .button {
+    
+    
+        border-radius: 5px;
+        border-width: 20px;
+        background-color:transparent;
+        border: 1.5px solid #00bfff;
+        height: 6vh;
+        width: 10vw;
+        transition: ease-in-out 200ms;
+        height: 100px;
+    
+    }
+    
+    .button:hover {
+    
+    
+        border-radius: 5px;
+        border-width: 20px;
+        background-color:  #00bfff;
+        border: 0px solid  aquamarine;
+        transition: ease-in-out 200ms;
+    
+    }
+    
+    
+    /* MEDIA QUERIESS */
+    
+    @media screen  and (max-width : 1024px){
+        
+        .portfolio_container {
+            grid-template-columns: 1fr 1fr;
+            gap:1.2rem;
+        
+        }
+    }
+    
+    /* MEDIA QUERIES FOR SMALLER DEVOCES */
+    @media screen  and ( max-width : 600px){
+    
+        .portfolio_container {
+            grid-template-columns:1fr;
+            gap:1rem;
+        
+        }
+    
+    
+    }
+    
+    
+    
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    
+    
+    
+    .award_container {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap:1rem;
+        width: 80%;
+    
+    }
+    
+    
+    
+    .awardsbutton{
+    
+        border-radius: 5px;
+        border-width: 2vw;
+        background-color:transparent;
+        border: 1.5px solid #00bfff;
+        height: 6vh;
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .awardsbutton:hover {
+    
+        border-radius: 5px;
+        border-width: 2vw;
+        background-color:  #00bfff;
+        border: 0px solid  aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: ease-in-out 200ms;
+    
+    }
+    
+    }
     background-color:  #00bfff;
     border: 0px solid  aquamarine;
     transition: ease-in-out 200ms;

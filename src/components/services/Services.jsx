@@ -1,11 +1,16 @@
 import React from "react";
 import "../services/services.css";
 import { BsCheckAll } from "react-icons/bs";
+import {FaReact} from "react-icons/fa"
+
+
+
 
 const Services = () => {
   return (
     <section id="section">
-      <div className="headingCtn">
+   
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">What experience I have</text>
         <text id="aboutme">My Experience</text>
       </div>
@@ -144,8 +149,7 @@ const Services = () => {
               <li>
                 <BsCheckAll />
                 <p className="work-text" >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores, ipsam!
+                 Made a portfolio website and hosted it on github.
                 </p>
               </li>
             </ul>

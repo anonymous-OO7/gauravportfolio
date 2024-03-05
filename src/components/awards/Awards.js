@@ -1,7 +1,8 @@
 import React from "react";
 import '../awards/awards.css';
-import IMG1 from "../../assets/certificate.png";
-import IMG2 from "../../assets/certificate2.png";
+
+import IMG1 from "../../assets/certificate1.jpeg";
+import IMG2 from "../../assets/certificate2.jpeg";
 import Lottie from 'react-lottie';
 import  AwardAnimation from '../../lotties/trophie.json';
 
@@ -17,9 +18,10 @@ const Awards = () => {
 
   return (
     <section id="awards">
-      <div className="headingCtn">
+  
+      <div className="flex flex-col justify-center items-center">
         <text className="getText">Proven  to be excellent</text>
-        <text id="aboutme">Awards</text>
+        <text id="aboutme">My Awards</text>
       </div>
 
       <div>
@@ -45,26 +47,26 @@ const Awards = () => {
           {/* <div className='portfolio_item-image'></div> */}
           <h3>Certificate of appreciation </h3>
 
-          <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com" className='buttonCtn'>
+          {/* <div style={ { display:"flex" , alignItems:'center' } }>
+            <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
-          </div>
+          </div> */}
 
 
         </article>
         <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src={IMG2} alt="p1" />
+            <img src={IMG2} alt="p1"     />
           </div>
 
           <h3>Certificate of achievement</h3>
-          <div style={ { display:"flex" , alignItems:'center' } }>
-            <a href="https://github.com" className='buttonCtn'>
+          {/* <div style={ { display:"flex" , alignItems:'center' } }>
+            <a href="https://github.com" className='awardsbutton'>
               Github
             </a>
 
-          </div>
+          </div> */}
         </article>
 
 

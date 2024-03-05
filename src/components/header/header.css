@@ -1,8 +1,9 @@
 .mainCtn{
     display: flex;
-    background-color:transparent;
+    background-color:cadetblue;
     justify-content: center;
-    margin-top: 8rem;
+    margin-top: 0rem;
+    height: 100vh;
 }
 
 .subCtn {
@@ -24,26 +25,34 @@
 
 #helloTag {
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 20px;
     font-weight:300;
-    color: white;}
+    color: white;
+    text-align: left;
+
+}
 
 #name {
     color: white;
     font-family: 'Poppins';
-    font-size: 30px;
+    font-size: 36px;
     font-weight:500;
+    text-align: left;
+
 
 }
 
 #profession {
 
     font-family: 'Poppins';
-    font-size: 13px;
+    font-size: 16px;
     font-weight:500;
     color: white;
     opacity: 0.7;
     margin-bottom: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+
 }
 
 
@@ -62,13 +71,174 @@
 .me {
 
     background-color: transparent;
-    width: 22rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
     /* position: absolute; */
     left:calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0 ;
-    margin-left: 35%;
+    margin-left: 30%;
+
+
+}
+
+
+.typewriterCtn{ 
+
+    margin-bottom: 1rem;
+
+}
+
+.headingCtn{
+
+    text-align: left;
+    margin-left: 8rem;
+}
+
+
+
+
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+
+
+
+
+
+}
+
+
+
+
+
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#artback {
+  background-image: url(../../assets/images/background.png);
+}
+
+#mountain {
+  background-image: url(../../assets/images/mountains.png);
+}
+
+#logoland {
+  background-image: url(../../assets/images/logo_land.png);
+}
+
+#jungle1 {
+  background-image: url(../../assets/images/jungle1.png);
+}
+
+#jungle2 {
+  background-image: url(../../assets/images/jungle2.png);
+}
+
+#jungle3 {
+  background-image: url(../../assets/images/jungle3.png);
+}
+
+#jungle4 {
+  background-image: url(../../assets/images/jungle4.png);
+}
+
+#jungle5 {
+  background-image: url(../../assets/images/jungle5.png);
+}
+
+#manonmountain {
+  background-image: url(../../assets/images/man_on_mountain.png);
+}
+ 
+
+
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+
+
+    .subCtn {
+        background-color:transparent;
+        width: 90%; 
+   
+    }
+
+    #name {
+        color: white;
+        font-family: 'Poppins';
+        font-size: 26px;
+        font-weight:500;
+        text-align: left;
+    
+    }
+
+
+    .headingCtn{
+
+        text-align: left;
+        margin-left: 4vh;
+    }
+
+
+    #header-socials {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4%;
+        right: 0vh;
+        display: none;
+        
+    
+    }
+
+
+
+
+    .me {
+
+        background-color: transparent;
+        width: 35rem;
+        height: 35rem;
+        /* position: absolute; */
+        left:calc(50% - 11rem);
+        margin-top: 4rem;
+        border-radius: 12rem 12rem 0 0 ;
+        margin-left: 30%;
+        display: none;
+    
+    
+    }
+
+    #profession {
+        font-size: 12px;
+        
+    
+    }
+
 
 
 }

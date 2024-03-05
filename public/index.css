@@ -45,10 +45,7 @@ body{
     background-color: white;
     color: white;
     line-height: 1.7;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3D9TF8k_AT2SgIf_Z3AmgJX4aWPIKMZF23A&usqp=CAU');
-
-
-
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3D9TF8k_AT2SgIf_Z3AmgJX4aWPIKMZF23A&usqp=CAU'); */
 }
 
 .container{
