@@ -1,12 +1,10 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Contact from "./components/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
-import Footer from "./components/footer/Footer";
 import Awards from "./components/awards/Awards";
 import Paths from "./router";
 import Homepage from "./pages/homepage/Homepage";
