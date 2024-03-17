@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/gauravportfolio/static/css/main.ba9a9872.css",
-    "main.js": "/gauravportfolio/static/js/main.10dfd2bb.js",
+    "main.css": "/gauravportfolio/static/css/main.eeb6ab50.css",
+    "main.js": "/gauravportfolio/static/js/main.2ca965e2.js",
     "static/js/787.1ed0c42c.chunk.js": "/gauravportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/certificate2.jpeg": "/gauravportfolio/static/media/certificate2.50ca34a7548233ad6647.jpeg",
     "static/media/portfolio3.jpg": "/gauravportfolio/static/media/portfolio3.76119c64cdd3e46804e2.jpg",
+    "static/media/me.JPG": "/gauravportfolio/static/media/me.0fae774ea2ea9ff12353.JPG",
     "static/media/me-about.jpg": "/gauravportfolio/static/media/me-about.8d0b576d9e76a9367496.jpg",
     "static/media/certificate1.jpeg": "/gauravportfolio/static/media/certificate1.8d77f2cce8499fc4f2c1.jpeg",
     "static/media/portfolio5.png": "/gauravportfolio/static/media/portfolio5.f250de205f707c277047.png",
@@ -24,12 +25,12 @@
     "static/media/portfolio2.jpg": "/gauravportfolio/static/media/portfolio2.0f76d4891c9f5aa41415.jpg",
     "static/media/portfolio4.jpg": "/gauravportfolio/static/media/portfolio4.0eaefcf4fe22dbaee41d.jpg",
     "index.html": "/gauravportfolio/index.html",
-    "main.ba9a9872.css.map": "/gauravportfolio/static/css/main.ba9a9872.css.map",
-    "main.10dfd2bb.js.map": "/gauravportfolio/static/js/main.10dfd2bb.js.map",
+    "main.eeb6ab50.css.map": "/gauravportfolio/static/css/main.eeb6ab50.css.map",
+    "main.2ca965e2.js.map": "/gauravportfolio/static/js/main.2ca965e2.js.map",
     "787.1ed0c42c.chunk.js.map": "/gauravportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9a9872.css",
-    "static/js/main.10dfd2bb.js"
+    "static/css/main.eeb6ab50.css",
+    "static/js/main.2ca965e2.js"
   ]
 }
