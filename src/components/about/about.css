@@ -84,21 +84,22 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap : 1.5rem;
+    text-align: center;
 }
 
 .about_card {
     border: 1px solid transparent;
     border-radius: 1rem;
     /* padding: 2rem; */
-    background-color:steelblue;
-    text-align: center;
+    background-color:#352E8F;
+    /* text-align: center; */
     transition: ease-in-out 400ms;
     opacity: 0.8;
 }
 
 .about_card:hover{
 
-    background: transparent;
+    background-color:"#A5A4B2";
     cursor: default;
     opacity:1;
 
@@ -119,7 +120,7 @@
 
 .aboutText{
 
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'Poppins';
     text-align: center;
