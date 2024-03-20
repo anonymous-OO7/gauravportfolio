@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "Gaurav Kumar Yadv",
   roles: [
     "Full Stack Developer",
     "Android Developer",
@@ -8,13 +8,13 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/anonymous-OO7",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://docs.google.com/document/d/14kcjRhdLxU8QcM5bzJa5Buvd0EFAJFVPplTeU3WNDpU/edit?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/gaurav-yadav-168b01189/",
+  twitter: "https://twitter.com/GauravY91430412",
+  // insta: "https://www.instagram.com/rishav_chanda/",
+  // facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills2 = [
@@ -203,7 +203,7 @@ export const experiences = [
       "Node Js",
       " Next Js",
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    doc: "",
   },
   {
     id: 1,
@@ -228,7 +228,7 @@ export const experiences = [
       "X Code",
       "iOS"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    doc: "https://drive.google.com/file/d/1FzU3cJK7rUOmTYDYGfpaqSkUE-J8KWcG/view?usp=sharing",
   },
   {
     id: 2,
@@ -349,7 +349,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Clients",
+    title: "Client Wise",
     date: "Dec 2021 - Apr 2022",
     description:
       "App Is Currently In Playstore 100+ Downloads. This Project proposes an Insurance Client Tracking App”. It is having a free version now with which we clients can track their insurance clients and generate their personalised messages to intract more with and generate revenue",
@@ -454,9 +454,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2021, text: "Started my journey" },
+  { year: 2022, text: "Worked as a Software developer" },
+  { year: 2023, text: "Switched to a new company" },
+  { year: 2024, text: "Founder of a new company" },
+
 ];
